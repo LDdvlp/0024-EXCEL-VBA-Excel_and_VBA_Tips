@@ -1,25 +1,24 @@
 |*Doc. #*|*Rédacteur*|*Création*|*Mise à jour*|
 |:---:|:---:|---:|:---|
-|***00xx***|*Loïc Drouet*|_Mercredi 04 octobre 2022_|_Mercredi 04 octobre 2022_|
+|***0024***|*Loïc Drouet*|_Mercredi 04 octobre 2023_|_Mercredi 04 octobre 2023_|
 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=true} -->
 
 <!-- code_chunk_output -->
 
-- [Excel & VBA Tips](#excel--vba-tips)
-  - [_[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA](#_vba_-afficher-un-retour-à-la-ligne-dans-la-cellule-à-partir-du-code-vba)
-  - [_[VBA]_ Continuer le code VBA sur une nouvelle ligne](#_vba_-continuer-le-code-vba-sur-une-nouvelle-ligne)
-  - [___[EXCEL-VBA]___ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées](#___excel-vba___-déterminer-et-identifier-lindex-de-couleur-darrière-plan-des-cellules--obtenir-les-codes-hex-rgb-et-dec-des-couleurs-par-les-fonctions-vba-concaténées)
-  - [___[EXCEL-VBA]___ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)](#___excel-vba___-identifier-les-commentaires-en-couvrant-les-indicateurs-de-commentaire-petits-triangles-rouges-en-haut-à-droite-dans-la-cellule-par-des-triangles-bleus-plus-gros-formes)
-    - [Usage](#usage)
-    - [Création](#création)
+1. [_[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA](#_vba_-afficher-un-retour-à-la-ligne-dans-la-cellule-à-partir-du-code-vba)
+2. [_[VBA]_ Continuer le code VBA sur une nouvelle ligne](#_vba_-continuer-le-code-vba-sur-une-nouvelle-ligne)
+3. [_[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées](#_excel-vba_-déterminer-et-identifier-lindex-de-couleur-darrière-plan-des-cellules--obtenir-les-codes-hex-rgb-et-dec-des-couleurs-par-les-fonctions-vba-concaténées)
+4. [_[EXCEL-VBA]_ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)](#_excel-vba_-identifier-les-commentaires-en-couvrant-les-indicateurs-de-commentaire-petits-triangles-rouges-en-haut-à-droite-dans-la-cellule-par-des-triangles-bleus-plus-gros-formes)
+    1. [Usage](#usage)
+    2. [Création](#création)
 
 <!-- /code_chunk_output -->
 
 
 
-# Excel & VBA Tips {ignore: true}
+# Excel & VBA Tips {ignore=true}
 
 !!! info
 
@@ -76,7 +75,7 @@ Résultat dans la cellule :
 
 _Source : [Continuer le code VBA sur une nouvelle ligne](https://excel-malin.com/vba-astuces/continuer-code-vba-sur-nouvelle-ligne/)_
 
-## ___[EXCEL-VBA]___ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées 
+## _[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées 
 
 Dans la cellule Excel qui fait référence à l'autre cellule colorée (Cellule) :
 ```
@@ -145,7 +144,7 @@ _Source : [Déterminer et identifier l'index de couleur d'arrière-plan des cell
 
 _Fichiers : [getColorsCodesFromACell](/getColorsCodesFromACell/)_
 
-## ___[EXCEL-VBA]___ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)
+## _[EXCEL-VBA]_ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)
 
 
 ### Usage
@@ -229,4 +228,4 @@ _Source : [Déterminer et identifier l'index de couleur d'arrière-plan des cell
 
 _Fichiers : [getColorsCodesFromACell](/identifyCommentIndicators/)_
 
-# 0024-EXCEL-VBA-Excel_and_VBA_Tips
+
