@@ -32,7 +32,7 @@
 
 ![Image_0012](images/0012.png)
 
-Se placer sous la cellule contennat le texte et <kbd>CTRL</kbd> + <kbd>$</kbd> :
+Se placer sous la cellule contenant le texte et <kbd>CTRL</kbd> + <kbd>$</kbd> :
 
 ![Image_0013](images/0013.png)
 
