@@ -91,11 +91,6 @@ _Source : [Continuer le code VBA sur une nouvelle ligne](https://excel-malin.com
 
 ## _[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées 
 
-Dans la cellule Excel qui fait référence à l'autre cellule colorée (Cellule) :
-```
-=CONCATENER(getHexRgbColorsCodes(Cellule);getDecColorsCodes(Cellule))
-```
-
 Dans l'**éditeur VBA**, créer un **Module1** dans les **Modules** du projet VBA (**VBAProject**), ajouter **les 2 fonctions suivantes** et enregistrer :
 * **getHexRgbColorsCodes**
 * **getDecColorsCodes**
@@ -148,6 +143,11 @@ Function getDecColorsCodes(FCell As Range, Optional Opt As Integer = 0) As Strin
             getDecColorsCodes = "DEC " & decColor
     End Select
 End Function
+```
+
+Dans la cellule Excel qui fait référence à l'autre cellule colorée (Cellule) :
+```
+=CONCATENER(getHexRgbColorsCodes(Cellule);getDecColorsCodes(Cellule))
 ```
 
 ![Image_0001](images/0001.png)
