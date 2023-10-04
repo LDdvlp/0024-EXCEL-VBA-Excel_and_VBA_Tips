@@ -7,10 +7,12 @@
 
 <!-- code_chunk_output -->
 
-1. [_[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA](#_vba_-afficher-un-retour-à-la-ligne-dans-la-cellule-à-partir-du-code-vba)
-2. [_[VBA]_ Continuer le code VBA sur une nouvelle ligne](#_vba_-continuer-le-code-vba-sur-une-nouvelle-ligne)
-3. [_[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées](#_excel-vba_-déterminer-et-identifier-lindex-de-couleur-darrière-plan-des-cellules--obtenir-les-codes-hex-rgb-et-dec-des-couleurs-par-les-fonctions-vba-concaténées)
-4. [_[EXCEL-VBA]_ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)](#_excel-vba_-identifier-les-commentaires-en-couvrant-les-indicateurs-de-commentaire-petits-triangles-rouges-en-haut-à-droite-dans-la-cellule-par-des-triangles-bleus-plus-gros-formes)
+1. [_[EXCEL]_ Copier une cellule de dessus et éditer : CTRL + $](#_excel_-copier-une-cellule-de-dessus-et-éditer--kbdctrlkbd--kbdkbd)
+2. [_[EXCEL]_ Afficher les formules dans les celulles : CTRL + "](#_excel_-afficher-les-formules-dans-les-celulles--kbdctrlkbd--kbdkbd)
+3. [_[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA](#_vba_-afficher-un-retour-à-la-ligne-dans-la-cellule-à-partir-du-code-vba)
+4. [_[VBA]_ Continuer le code VBA sur une nouvelle ligne](#_vba_-continuer-le-code-vba-sur-une-nouvelle-ligne)
+5. [_[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées](#_excel-vba_-déterminer-et-identifier-lindex-de-couleur-darrière-plan-des-cellules--obtenir-les-codes-hex-rgb-et-dec-des-couleurs-par-les-fonctions-vba-concaténées)
+6. [_[EXCEL-VBA]_ Identifier les commentaires en couvrant les indicateurs de commentaire (petits triangles rouges en haut à droite dans la cellule) par des triangles bleus plus gros (formes)](#_excel-vba_-identifier-les-commentaires-en-couvrant-les-indicateurs-de-commentaire-petits-triangles-rouges-en-haut-à-droite-dans-la-cellule-par-des-triangles-bleus-plus-gros-formes)
     1. [Usage](#usage)
     2. [Création](#création)
 
@@ -25,6 +27,26 @@
     ___[EXCEL]___ : astuce Excel
     ___[VBA]___ : astuce VBA
     ___[EXCEL-VBA]___ : astuce Excel et VBA
+
+## _[EXCEL]_ Copier une cellule de dessus et éditer : <kbd>CTRL</kbd> + <kbd>$</kbd>
+
+![Image_0012](images/0012.png)
+
+Se placer sous la cellule contennat le texte et <kbd>CTRL</kbd> + <kbd>$</kbd> :
+
+![Image_0013](images/0013.png)
+
+La cellule du dessus est copiée et on entre en édition.
+
+## _[EXCEL]_ Afficher les formules dans les celulles : <kbd>CTRL</kbd> + <kbd>"</kbd>
+
+![Image_0014](images/0014.png)
+
+<kbd>CTRL</kbd> + <kbd>"</kbd> :
+
+![Image_0015](images/0015.png)
+
+Les formules sont affichées dans les celulles.
 
 ## _[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA
 
