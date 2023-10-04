@@ -8,7 +8,7 @@
 <!-- code_chunk_output -->
 
 1. [_[EXCEL]_ Copier une cellule de dessus et éditer : CTRL + $](#_excel_-copier-une-cellule-de-dessus-et-éditer--kbdctrlkbd--kbdkbd)
-2. [_[EXCEL]_ Afficher les formules dans les celulles : CTRL + "](#_excel_-afficher-les-formules-dans-les-celulles--kbdctrlkbd--kbdkbd)
+2. [_[EXCEL]_ Afficher les formules dans les cellules : CTRL + "](#_excel_-afficher-les-formules-dans-les-cellules--kbdctrlkbd--kbdkbd)
 3. [_[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA](#_vba_-afficher-un-retour-à-la-ligne-dans-la-cellule-à-partir-du-code-vba)
 4. [_[VBA]_ Continuer le code VBA sur une nouvelle ligne](#_vba_-continuer-le-code-vba-sur-une-nouvelle-ligne)
 5. [_[EXCEL-VBA]_ Déterminer et identifier l'index de couleur d'arrière-plan des cellules : obtenir les codes HEX, RGB et DEC des couleurs par les fonctions VBA concaténées](#_excel-vba_-déterminer-et-identifier-lindex-de-couleur-darrière-plan-des-cellules--obtenir-les-codes-hex-rgb-et-dec-des-couleurs-par-les-fonctions-vba-concaténées)
@@ -38,7 +38,7 @@ Se placer sous la cellule contenant le texte et <kbd>CTRL</kbd> + <kbd>$</kbd> :
 
 La cellule du dessus est copiée et on entre en édition.
 
-## _[EXCEL]_ Afficher les formules dans les celulles : <kbd>CTRL</kbd> + <kbd>"</kbd>
+## _[EXCEL]_ Afficher les formules dans les cellules : <kbd>CTRL</kbd> + <kbd>"</kbd>
 
 ![Image_0014](images/0014.png)
 
@@ -46,7 +46,7 @@ La cellule du dessus est copiée et on entre en édition.
 
 ![Image_0015](images/0015.png)
 
-Les formules sont affichées dans les celulles.
+Les formules sont affichées dans les cellules.
 
 ## _[VBA]_ Afficher un retour à la ligne dans la cellule à partir du code VBA
 
@@ -85,14 +85,6 @@ Une ligne de code sur **plusieurs** lignes :
                                   & "et" _
                                   & Chr(10) _
                                   & "Bienvenue"
-```
-
-Résultat dans la cellule :
-
-```
-    Bonjour
-    et
-    Bienvenue
 ```
 
 _Source : [Continuer le code VBA sur une nouvelle ligne](https://excel-malin.com/vba-astuces/continuer-code-vba-sur-nouvelle-ligne/)_
